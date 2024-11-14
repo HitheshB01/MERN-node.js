@@ -8,30 +8,33 @@ const port = 3000;
 //CRUD operations
 //read  ,create  ,update  ,delete
 //get   ,post    ,put     ,delete
-app.get('/', (req, res) => {
-    res.send('Hello World! home page');
-}); 
 
-app.get('/about', (req, res) => {
-    res.send('Hello World! about page');
-}); 
 
-app.get('/contact', (req, res) => {
-    res.send('Hello World! contact page');
-});
 
-app.post('/contact', (req, res) => {
-    res.send('Hello World! contact page');
-}); 
+// app.get('/', (req, res) => {
+//     res.send('Hello World! home page');
+// }); 
 
-app.put('/contact', (req, res) => {
-    res.send('Hello World! contact page');
-});     
+// app.get('/about', (req, res) => {
+//     res.send('Hello World! about page');
+// }); 
 
-app.delete('/contact', (req, res) => {
-    res.send('Hello World! contact page');
-});
+// app.get('/contact', (req, res) => {
+//     res.send('Hello World! contact page');
+// });
 
-app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`);
-})
+// app.post('/contact', (req, res) => {
+//     res.send('Hello World! contact page');
+// }); 
+
+// app.put('/contact', (req, res) => {
+//     res.send('Hello World! contact page');
+// });     
+
+// app.delete('/contact', (req, res) => {
+//     res.send('Hello World! contact page');
+// });
+
+// app.listen(port, () => {
+//     console.log(`Example app listening on port ${port}`);
+// })
